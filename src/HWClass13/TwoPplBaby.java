@@ -33,4 +33,6 @@ Scanner scan= new Scanner(System.in);
 	System.out.println(name.toUpperCase());
 	
 }
+		
+		
 	}}
