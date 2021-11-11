@@ -17,6 +17,15 @@ public class Task6 {
 			System.out.println(str+" is not palindrome");
 		}
 
+		String str2="aba";
+		StringBuilder strB=new StringBuilder(str);
+		strB.reverse();
+		if (str2.equals(strB.toString()));{
+			System.out.println(str2+" is palindrome");
+	//	} else  {
+			System.out.println(str2+" is not palindrome");
+		}
+		
 	}
 
 }

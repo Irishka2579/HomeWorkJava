@@ -9,8 +9,9 @@ public class Task3 {
 
 	
 		String a="Is it Saturday? Is it raining? Do we have a Java Class today?";
-	String[]str=a.split("[?]");
-		System.out.println(str.length);
+	//String[]str=a.split("[?]");
+		//System.out.println(str.length);
+		System.out.println(a.split("[?.!]").length);//thats how sentence ended
 	}
 
 }
