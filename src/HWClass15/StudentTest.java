@@ -14,7 +14,7 @@ System.out.println("-------------------");
 Student s2=new Student();
 s2.studentName="Michael";
 s2.studentID=456780;
-s2.numberOfStudents ++;
+s2.numberOfStudents ++; 
 s2.story();
 System.out.println("--------------------");
 Student s3=new Student();
