@@ -12,10 +12,10 @@ public static void main(String[] args){
 * 3 - from different class inside different package  and observe result.
 */
 
-	FourConstructor m1=new FourConstructor();
-	FourConstructor m2=new FourConstructor(15);
-	FourConstructor m3=new FourConstructor();
-	FourConstructor m4=new FourConstructor(15,0,"George",'M');
+	new FourConstructor();
+	new FourConstructor(15);
+	new FourConstructor();
+	new FourConstructor(15,0,"George",'M');
 
 		
 	
